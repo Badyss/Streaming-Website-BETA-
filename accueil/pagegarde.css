@@ -1,0 +1,67 @@
+@import url('https://fonts.cdnfonts.com/css/nickainley');
+
+
+/* navbar */
+
+body {
+    background-color:black;
+    background:url('https://cdn.discordapp.com/attachments/1119276537359908905/1122932323982258297/image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+body img {
+    width:30%
+}
+
+header {
+    display:flex;
+    margin: 0 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    display:flex;
+    margin-right:10%;
+}
+
+.para{
+    height:31px;
+    width: 50px;
+    border-radius: 4px;
+    font-size:20px;
+    cursor:pointer;
+    justify-content: center;
+    margin-right:10%;
+    filter: invert(80%);
+    background-color: rgba(0, 0, 0, 0);
+    border:none
+}
+
+.para:hover{
+    filter: invert(100%);
+    background-color: none;
+}
+
+.log {
+        height:30px;
+        width: 140px;
+        background-color: cyan;
+        color:black;
+        border-radius: 5px;
+        text-align:center;
+        border:none;
+        font-size:14px;
+        cursor:pointer;
+        justify-content: center;
+        font-weight: bold;
+        font-family: 'IQOS', sans-serif;        
+}
+
+.log:hover{
+    border:1px solid red;
+    filter: invert(100%);
+    background-color: white;
+}
+

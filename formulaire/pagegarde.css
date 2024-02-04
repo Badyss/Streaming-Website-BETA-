@@ -1,0 +1,226 @@
+@import url('https://fonts.cdnfonts.com/css/iqos');
+@import url('https://fonts.cdnfonts.com/css/nickainley');
+
+
+body {
+    margin:0;
+    padding:0;
+    background-color:black;
+}
+
+header {
+    display:flex;
+    padding: 0 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.log {
+    height:31px;
+    width: 150px;
+    background-color: cyan;
+    color:black;
+    border-radius: 4px;
+    text-align:center;
+    border:none;
+    font-size:14px;
+    cursor:pointer;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'IQOS', sans-serif;
+}
+
+.log:hover{
+    border:1px solid red;
+    filter: invert(100%);
+    background-color: white;
+}
+
+/*display1*/
+
+
+
+main {
+    margin: 5% ;
+    color:white;
+    font-family: 'IQOS', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.un img{
+    width:300px;
+}
+
+.suivant {
+    height:57px;
+    width: 220px;
+    background-color: cyan;
+    color:black;
+    border-radius: 4px;
+    text-align:center;
+    border:none;
+    font-size:20px;
+    cursor:pointer;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'IQOS', sans-serif;
+    transition:0.2s
+}
+
+.suivant:hover {
+    background-color: rgb(0, 0, 0);
+    border:1px solid cyan;
+    color:white
+}
+
+/*display2*/
+
+.deux .mdp {
+    height:40px;
+    width: 25%;
+    margin:0.5% 0 ;
+    border-radius:3px;
+    border:2px solid cyan;
+    font-size:20px
+}
+
+.deux p {
+    margin: 0.5% 38%;
+}
+
+/*display3*/
+
+.trois {
+    text-align: left;
+}
+
+.trois h1 {
+    margin:0;
+}
+
+.trois p {
+    margin:0
+}
+
+.trois table{
+    justify-content: center;
+    text-align: center;
+    width:80%;
+    height:50%;
+    margin:5%;
+    border-collapse: collapse;
+}
+
+.trois table td {
+    width:25%;
+}
+
+.trois table img{
+    height:150px;
+}
+
+.trois .bord, .bord td {
+    border:1px solid cyan;
+    margin:0;
+}
+
+.trois table button {
+    width:90%;
+}
+
+
+/*display4*/
+
+.quatre {
+    text-align: justify;
+    margin:2% 30%;
+}
+
+.quatre img {
+    height:20px;
+}
+
+.quatre h1 {
+    text-align: left;
+}
+
+.quatre div {
+    display:flex;
+}
+
+.quatre div input:nth-child(2) {
+    width:100%;
+    margin-left:5%; 
+}
+.quatre input {
+    width:100%;
+    margin:1% 0%;
+    height:50px;
+    font-size: 17px;
+    font-family: 'IQOS', sans-serif;
+    border:2px solid cyan;
+}
+
+.quatre2 {
+    color:white;
+}
+
+.quatre2 h3 {
+    width:90%;
+    color:white;
+    font-size:27px;
+}
+
+.quatre2 h3 span {
+    color:grey;
+    font-size:20px;
+}
+
+.quatre2 button {
+    margin-top:22px;
+    height:45px;
+    width: 100px;
+    background-color: rgb(28, 100, 255);
+    color:white;
+    border-radius: 4px;
+    text-align:center;
+    border:none;
+    font-size:20px;
+    cursor:pointer;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'IQOS', sans-serif;
+    transition:0.2s;
+}
+
+.quatre2 button:hover {
+    background-color: white;
+    border:1px solid black;
+    color:black
+}
+
+.payment {
+    margin-top:22px;
+    height:45px;
+    width: 100%;
+    background-color: cyan;
+    color:black;
+    border-radius: 4px;
+    text-align:center;
+    border:none;
+    font-size:20px;
+    cursor:pointer;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'IQOS', sans-serif;
+    transition:0.2s;
+}
+
+.payment:hover {
+    background-color: black;
+    border:1px solid cyan;
+    color:white
+}

@@ -1,0 +1,120 @@
+<html>
+<head>
+    <title>BadMovie</title>
+    <link rel="icon" href="../accueil/logo.png" type="image/icon type">
+    <link href="../accueil/logo.css" rel="stylesheet">
+    <link href="pagegarde.css" rel="stylesheet">
+    <link href="../accueil/footer.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p class="logo">Bad<span>Movie</span></p>
+        <button class="log" type="button" ><img src="../accueil/man.png" style="width:15px;">  Se connecter</button>
+    </header>
+    <main>
+        <div class="un" id="div1">
+            <img src="appareils.jpg"  >
+            <h4>Etape 1 sur 4</h4>
+            <h1 style=" margin: 1% 35%;">Complétez la configuration de votre compte</h1>
+            <p style="color:grey">BadMovie est personnalisé selon vos goûts pour regarder biénn.</p>
+            <button type="button" class="suivant" onclick="first()">Suivant</button>
+        </div>
+        <div class="deux" id="div2" style="display:none">
+            <h4>Etape 2 sur 4</h4>
+            <h1 style=" margin: 1% 35%;">Créer un mot de passe pour créer votre compte</h1>
+            <p style="color:grey">Le mot de passe doit contenir au minimum 8 caractères</p>
+            <p class="prob" style="color:red;display:none">Vous n'avez pas accepter les conditions d'utilisations</p>
+            <p class="prob" style="color:red;display:none">Mot de passe invalide</p>
+                <input type="text" class="mdp" id="entr" placeholder="adresse mail"><br>
+                <input type="password" class="mdp" id="mdp" placeholder="mot de passe">
+                <p style="color:grey"><input type="checkbox" id="check" >J'ai lu et j'accepte les conditions d'utilisations</p>
+                <p style="color:grey"><input type="checkbox" >J'accepte de recevoir des mails concernant les offres spéciales</p>
+                <button type="submit" class="suivant" onclick="password()" name="submit">Suivant</button>
+        </div>
+        <div class="trois" id="div3" style="display:none">
+            <h4>Etape 3 sur 4</h4>
+            <h1>Choisissez l'offre qui vous correspond le mieux.</h1>
+            <p>✔️ Regardez en ilimité</p>
+            <p>✔️ Un algorithme qui vous proposes ce qu'il vous plaîera</p>
+            <p>✔️ Annulez votre offre à tout moment</p>
+            <table style="color:white">
+                <tr>
+                    <td></td>
+                    <td class="bord"><img src="standard.png"></td>
+                    <td class="bord"><img src="basique.png"></td>
+                    <td class="bord"><img src="familial.png"></td>
+                </tr>
+                <tr class="bord">
+                    <td>Prix mensuel</td>
+                    <td>6.99€</td>
+                    <td>11.99€</td>
+                    <td>18.99€</td>
+                </tr>
+                <tr class="bord">
+                    <td>Qualité</td>
+                    <td>HD (720p)</td>
+                    <td>Full HD(1080p)</td>
+                    <td>UHD (3840p)</td>
+                </tr>
+                <tr class="bord">
+                    <td>Nombre d'écrans</td>
+                    <td>1</td>
+                    <td>3</td>
+                    <td>5</td>
+                </tr>
+                <tr class="bord">
+                    <td>Pubs</td>
+                    <td>✔️</td>
+                    <td style="color:red">X</td>
+                    <td style="color:red">X</td>
+                </tr>
+                <tr class="bord">
+                    <td>Téléchargements</td>
+                    <td style="color:red">X</td>
+                    <td>✔️</td>
+                    <td>✔️</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="button" class="suivant" onclick="offre(6.99,'Offre Standard')">Sélectionner</button></td>
+                    <td><button type="button" class="suivant" onclick="offre(11.99,'Offre Basique')">Séléctionner</button></td>
+                    <td><button type="button" class="suivant" onclick="offre(18.99,'Offre Familialle')">Séléctionner</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="quatre" id="div4" style="display:none">
+            <h4>Etape 4 sur 4</h4>
+            <h1>Renseignez votre carte de payement</h1>
+                <img src="visa.png">
+                <img src="mastercard.png">
+                <img src="amex.png">
+                <img src="cb.jpg"><br>
+                <input type="text" placeholder="Numéro de carte">
+                <div>
+                    <input type="text" placeholder="Date d'expiration">
+                    <input type="text" placeholder="Cryptogramme">
+                </div>
+                <input type="text" placeholder="Prénom">
+                <input type="text" placeholder="Nom">
+                <div class="quatre2">
+                    <h3 id="prix"><span ></span></h3>
+                    <button type="button" onclick="changeroffre()">Changer</button>
+                </div>
+                <button type="button" class="payment" onclick="payer()">Activer mon abonnement</button>
+                <h1 id="erreurpay" style="color:red;text-align: center;display:none">Merci d'avoir donné tes infos de cb $$</h1>
+        </div>
+    </main>
+    <footer>
+        <p class="logo">Bad<span>Movie</span></p>
+        <div>
+            <a href="">Condition d'utilisations</a>
+            <a href="">FAQ</a>
+            <a href="">Aide</a>
+            <a href="">Avis</a>
+            <p href="">© 2023, Badyss Azz</p>
+        </div>
+    </footer>
+</body>
+<script src="../js.js"></script>
+<script>window.onload = function() { register(); };</script>
+</html>

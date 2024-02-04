@@ -1,0 +1,24 @@
+footer {
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family: 'IQOS', sans-serif;
+    border: 1px cyan;
+    width:102.3%;
+    margin-left:-2%;
+    padding:1.5% 0;
+    border:1px solid cyan
+}
+
+
+footer div a {
+    text-decoration: none;
+    color:rgb(28, 100, 255); 
+    font-size: 18px;
+    margin:0 1%;
+    transition:0.1s
+}
+
+footer div a:hover{
+    color:#79b8f3;;
+}

@@ -1,0 +1,65 @@
+<html>
+<head>
+    <title>BadMovie</title>
+    <link rel="icon" href="logo.png" type="image/icon type">
+    <link href="logo.css" rel="stylesheet">
+    <link href="pagegarde.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <link href="settings.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <p class="logo">Bad<span>Movie</span></p>
+                <div>
+                    <button class="log" type="button" ><img src="../accueil/man.png" style="width:15px;">  Se connecter</button>
+                    <a href="../parametres/parametres.html"><button type="button" class="para" href=""><img src="set.png" style="width:25px;"></button></a>
+                </div>
+    </header>
+    <main>
+        <div>
+            <h1>Films et séries en illimité, et bien plus</h1>
+            <h2>Disponible partout en France</h2>
+            <p>Ça vous tentes ? Saisissez votre adresse mail et suivez la procédure</p>
+            <input type="text" id="mail" onkeyup="entree(event)">
+            <button onclick="recupmail()">Commencer ➜</button>
+            <p class="prob">Adresse email invalide</p>
+            <p class="prob">Adresse email déja liée à un compte</p>
+        </div>
+        <section>
+            <div class="pub" >
+                <img src="pop2.png">
+                <h3>Seulement 6.99€ pour regarder BadMovie
+                    <br><span>Offre standard en 720p</span>
+                    <a href="../formulaire/conexion.html?showDiv1=false" onclick="pub()"><br>Découvrir ➜</a></h3>
+                <h2 onclick="croixpub()">❌</h2>
+            </div>
+            <div class="preview">
+                <img src="ecran1.png">
+                <h1>Partout !<br><span>Que vous soyez sur Ordinateur, téléphone, télévision ou même tablette et en ilimité !</span><a href=""><br>Voir les paramètres de compatibilité</a></h1>
+            </div>
+            <div class="bart">
+                <div class="miff">
+                    <img src="simpson.png" >
+                </div>
+                <h1>En Famille !<br><br><span>De nombreuses séries et films ont été ajoutés au catalogue pour faire vivre tout le monde.</span></h1>
+                <div class="brt">
+                    <img src="bart.png">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="logo">Bad<span>Movie</span></p>
+        <div>
+            <a href="">Condition d'utilisations</a>
+            <a href="">FAQ</a>
+            <a href="">Aide</a>
+            <a href="">Avis</a>
+            <p href="">© 2023, Badyss Azz</p>
+        </div>
+    </footer>
+</body>
+<script src="../js.js"></script>
+
+</html>

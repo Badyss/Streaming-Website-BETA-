@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>BadMovie</title>
+    <link rel="icon" href="../accueil/logo.png" type="image/icon type">
+    <link href="../accueil/logo.css" rel="stylesheet">
+    <link href="settings.css" rel="stylesheet">
+    <link href="../accueil/footer.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p class="logo">Bad<span>Movie</span></p>
+            <div>
+                <a href="../accueil/index.html"><button class="log" type="button">Retour</button></a>
+            </div>
+    </header>
+    <main>
+        <h1> Paramètres </h1>
+        <div>
+            <h2 class="h2">Mode sombre</h2>
+            <label class="toggle">
+                <input type="checkbox" checked onclick="modesombre()">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div>
+            <h2 style="margin-left:20px" class="h2">Langue</h2>
+            <select id="language-select">
+                <option value="fr">Français</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+    </main>
+    <footer id="footer">
+        <p class="logo">Bad<span>Movie</span></p>
+        <div>
+            <a href="">Condition d'utilisations</a>
+            <a href="">FAQ</a>
+            <a href="">Aide</a>
+            <a href="">Avis</a>
+            <p href="">© 2023, Badyss Azz</p>
+        </div>
+    </footer>
+</body>
+<script src="settings.js"></script>
+<script>langue()</script>
+
+</html>

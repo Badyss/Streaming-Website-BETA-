@@ -1,0 +1,25 @@
+.logo{
+    font-family: 'Nickainley', sans-serif;
+    color:white;
+    font-size:350%;
+    text-shadow: 1px 0 10px white;
+    top:0;
+    margin:0px;
+}
+
+.logo span {
+    color:cyan;
+    animation: 3s logo infinite;
+}
+
+@keyframes logo {
+    0%{
+        text-shadow: 1px 0 10px cyan, 0 0 20px cyan;
+      }
+    50% {
+        text-shadow: 1px 0 10px white, 0 0 20px blue;
+      }
+    100%{
+        text-shadow: 1px 0 10px cyan, 0 0 20px cyan;
+      }
+}

@@ -1,0 +1,200 @@
+@import url('https://fonts.cdnfonts.com/css/iqos');
+
+/* page presentation */
+
+main div {
+    text-align:center;
+    color:white;
+    margin-top:11%;
+    font-family: 'IQOS', sans-serif;
+}
+
+main h1 {
+    font-size:50px;
+}
+
+main h2 {
+    font-size:28px;
+    text-shadow:1px 1px 1px black;
+}
+
+main p {
+    font-size:18px;
+    text-shadow:0px 0px 1px black;
+}
+
+main div button {
+    height:38px;
+    width: 160px;
+    background-color: cyan;
+    color:black;
+    border-radius: 4px;
+    text-align:center;
+    border:none;
+    font-size:20px;
+    cursor:pointer;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'IQOS', sans-serif;
+}
+
+main div button:hover{
+    background-color: rgb(0, 0, 0);
+    border:1px solid cyan;
+    color:white
+}
+
+main div input {
+    height:40px;
+    width: 260px;
+    border: 1px solid red;
+    background-color:rgba(0, 0, 0, 0.452);
+    margin-right:10px;
+    color:white;
+    font-size:18px;
+    margin-top:10px;
+}
+
+main div .prob {
+    text-align: center;
+    width:200px;
+    height:70px;
+    background-color: rgba(255, 0, 0, 0.671);
+    border-radius: 3px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top:1%;
+    display:none;
+}
+
+/* Puubbbbb */
+
+section {
+    background-color: black;
+    width:102.4%;
+    margin-left: -2%;
+}
+
+.pub {
+    text-align: justify;
+    height: 120px;
+    background: url('pubef.png');
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pub img {
+    width: 210px;
+    margin-left: 23%;
+    margin-right: 5%;
+}
+
+.pub h3 span {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.pub h3 a {
+    color: rgb(28, 100, 255);
+    transition: 0.2s;
+}
+
+.pub h3 a:hover {
+    color: white;
+    text-shadow: 1px 1px 3px blue;
+}
+
+.pub h2 {
+    font-size: 17px;
+    margin-top:-70px;
+    margin-right:10px;
+    margin-left: auto;
+    filter: brightness(0) invert(0.7);
+    cursor: pointer;
+}
+
+.pub h2:hover {
+    filter: brightness(0) invert(1);
+}
+
+/* Multiplatformes */
+
+section .preview {
+    display:flex;
+    text-align:justify;
+}
+
+section .preview img {
+    width:40%;
+    margin-left:5%;
+    object-fit: contain;
+}
+
+section .preview h1 {
+    font-size:50px;
+    margin-left:5%;
+    margin:5%;
+    text-shadow: 3px 3px 20px cyan;
+}
+
+section .preview h1 span {
+    font-size:28px;
+    text-shadow: none;
+}
+
+section .preview h1 a {
+    color: rgb(28, 100, 255);
+    transition: 0.2s;
+    font-size:15px;
+    text-shadow: none;
+}
+
+section .preview h1 a:hover {
+    color: white;
+    text-shadow: 1px 1px 3px blue;
+}
+
+/* Famille */
+
+section .bart {
+    display:flex;
+    text-align:justify;
+    border: 2px solid cyan;
+}
+
+section .bart .miff {
+    width:50%;
+    object-fit: contain;
+    margin-top:7%;
+    margin-left:10%;
+}
+
+section .bart .miff img{
+    width:70%;
+    filter: drop-shadow(0 0 50px rgba(255, 255, 255, 0.6))
+}
+
+section .bart h1 {
+    font-size:50px;
+    margin-top:10%;
+    text-shadow: 3px 3px 20px yellow;
+}
+section .bart h1 span {
+    font-size:24px;
+    text-shadow: none;
+}
+
+section .bart .brt {
+    width:50%;
+    margin-top:5%;
+
+}
+
+section .bart .brt img{
+    width:100%;
+    float:right;
+}

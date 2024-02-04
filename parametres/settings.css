@@ -1,0 +1,152 @@
+@import url('https://fonts.cdnfonts.com/css/nickainley');
+@import url('https://fonts.cdnfonts.com/css/iqos');
+
+
+body {
+    padding:0;
+    color:white;
+    font-family: 'IQOS', sans-serif;
+    background-color: black;
+}
+
+header {
+    display:flex;
+    margin: 0 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div {
+    display:flex;
+    margin-right:10%;
+}
+
+.para{
+    height:31px;
+    width: 50px;
+    border-radius: 4px;
+    font-size:20px;
+    cursor:pointer;
+    justify-content: center;
+    margin-right:10%;
+    filter: invert(80%);
+    background-color: rgba(0, 0, 0, 0);
+    border:none
+}
+
+.para:hover{
+    filter: invert(100%);
+    background-color: none;
+}
+
+.log {
+        height:30px;
+        width: 140px;
+        background-color: cyan;
+        color:black;
+        border-radius: 5px;
+        text-align:center;
+        border:none;
+        font-size:14px;
+        cursor:pointer;
+        justify-content: center;
+        font-weight: bold;
+        font-family: 'IQOS', sans-serif;        
+}
+
+.log:hover{
+    border:1px solid red;
+    filter: invert(100%);
+    background-color: white;
+}
+
+/* MAin */
+
+main{
+    margin:5% 30%;
+    text-align: center;
+    margin-bottom:15%;
+}
+
+main h1{
+    margin-bottom:10%;
+    text-decoration: underline;
+}
+
+main div {
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+main div h2 {
+    margin-right: 30px;
+
+}
+
+/*Toogle button */
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    height: 34px;
+  }
+  
+.toggle input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 30px;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 100%;
+}
+  
+input:checked + .slider {
+    background-color: #2196F3;
+}
+  
+input:checked + .slider:before {
+    transform: translateX(35px);
+}
+  
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
+  
+
+/* LAngues */
+
+main div select {
+    font-family: 'IQOS', sans-serif;   
+    width:100px;
+    height:30px;
+    font-size:18px;
+    margin-left:60px;
+}
